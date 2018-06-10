@@ -10,7 +10,7 @@
             return function(e){
                 e.preventDefault();
                 var page = li.href.split("#")[1];
-                content.src = "/" + page;
+                content.src = page;
             }
         }
 
